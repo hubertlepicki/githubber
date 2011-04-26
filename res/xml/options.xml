@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Settings">
+    <EditTextPreference android:key="GITHUB_USERNAME"
+                        android:title="github username"
+                        android:summary="Your login on github"
+    />
+    <EditTextPreference android:key="GITHUB_PASSWORD"
+                        android:title="github password"
+                        android:summary="Your password on github"
+    />
+  </PreferenceCategory>
+</PreferenceScreen>
+
